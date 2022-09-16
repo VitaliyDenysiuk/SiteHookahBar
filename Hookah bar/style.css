@@ -1,0 +1,206 @@
+body{
+   background-attachment: fixed;
+   background-size: cover;
+   background-image: url(https://img4.goodfon.ru/wallpaper/nbig/b/81/low-poly-background-abstract-gradient-abstraktsiia-geometrii.jpg);
+}
+*{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+header,main,footer{
+   background-image: url(https://i.pinimg.com/originals/76/46/5b/76465be29d569c472727be6a411ad880.png);
+   margin-left: 5%;
+   margin-right: 5%;
+   /* background-size: 100% 100%; */
+}
+header{
+   margin-bottom: 1%;
+   height: 110px;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header>img{
+   height: 5vw;
+   width: 5vw;
+   border-radius: 50px;
+   margin-left: 2vw;
+}
+header>h1{
+   font-size: 3vw;
+}
+.menu-div{
+   width: 50vw;
+   margin-right: 2vw;
+}
+.menu-page, .menu-page ul{
+   list-style-type: none;
+   font-size: 1.5vw;
+   text-align: center;
+}
+.menu-page li a{
+   display: block;
+   padding: 0.5vw 1vw 0.5vw 1vw;
+   text-decoration: none;
+   float: right;
+   width: 8vw;
+}
+.menu-page ul{
+   display: none;
+   top: 4.2vw;
+   margin-left: 10.05vw;
+   position: absolute;
+   background-color: rgba( 255, 255, 255, 0.2);
+}
+.menu-page li a:hover{
+   background-color: rgb(150, 100, 0);
+}
+.menu-page li:hover ul{
+   display: block;
+}
+.menu-page li ul{
+   float: none;
+}
+.menu-page ul li a :hover{
+   background-color: gray;
+}
+
+section{
+   border: 2px solid gray;
+   margin: 2vw;
+}
+
+main{
+   padding: 2vw;
+}
+.menu{
+   display: flex;
+   justify-content: space-between;
+   overflow-x: scroll;
+   margin: 1vw;
+   /* border: 2px solid blueviolet; */
+}
+.menu img{
+   height: 12vw;
+   width: 16vw;
+   margin: 1.5vw;
+}
+.menu-title{
+   font-size: 3vw;
+   margin: 1vw;
+}
+.menu-border{
+   border: 2px solid orange;
+   margin: 2vw;
+}
+
+
+.about-us{
+   margin: 1vw;
+   border: 2px solid gray;
+}
+.about-us-title{
+   font-size: 3vw;
+   margin: 1vw;
+}
+.about-us>div>p{
+   text-align: justify;
+   font-size: 1.5vw;
+   margin: 1vw;
+}
+.about-us .about-text{
+   margin-left: 5vw;
+   margin-right: 5vw;
+}
+
+
+.atmosphere{
+   margin: 1vw;
+   display: flex;
+   overflow-x: scroll;
+   justify-content: space-between;
+}
+.atmosphere-border{
+   border: 2px solid gray;
+   margin: 1vw;
+}
+.atmosphere-title{
+   font-size: 3vw;
+   margin: 1vw;
+}
+.atmosphere img{
+   width: 50vw;
+   height: 30vw;
+   margin: 1vw;
+}
+
+
+.revie-border{
+   border: 2px solid gray;
+   margin: 1vw;
+}
+.revie-title{
+   font-size: 3vw;
+   margin: 1vw;
+}
+.revie{
+   margin: 1vw;
+   display: flex;
+   justify-content: space-between;
+}
+.revie>div{
+   width: 20vw;
+   border: 1px solid greenyellow;
+   border-radius: 10%;
+   padding: 1vw;
+}
+.revie>div>img{
+   width: 8vw;
+   border-radius: 50%;
+}
+.revie>div>#name{
+   position: absolute;
+   font-size: 3vw;
+   margin-top: -6vw;
+   margin-left: 10vw;
+}
+#revie-text{
+   text-align: justify;
+   font-size: 1.2vw;
+}
+
+footer{
+   margin-top: 1%;
+   height: 150px;
+}
+footer>div>ul{
+   display: flex;
+   margin: 1vw;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   list-style-type: none;
+}
+footer>div>ul>li{
+   margin: 1vw;
+   font-size: 1.8vw;
+}
+#come-back{
+   text-align: center;
+}
+#come-back a{
+   position: absolute;
+   text-decoration: none;
+   color: black;
+   width: 4vw;
+   height: 4vw;
+   font-size: 3.2vw;
+   margin-left: 45.4%;
+   margin-top: -7%;
+   border-radius: 50%;
+   border: 2px solid rgba( 255, 255, 255, 0.7);
+   transform: rotate(0.75turn);
+}
