@@ -9,16 +9,29 @@
    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body-background">
    <header>
       <img src="https://kupit-kalyan.com.ua/storage/ckeditor/ckeditor/1613591492/prew_b/ckeditor-img.jpg?t=1613591492">
-      <h1>Hookah bar</h1>
+      <!-- <h1 id="title">Hookah bar</h1> -->
+      <svg id="svg__title" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+         <g clip-path="url(#myClip)">
+             <rect fill="green"/>
+             <g id="svgBack">
+             </g>
+         </g>
+         <clipPath id="myClip">
+            <text x="3vw" y="6vw" fill="url(#pattern1)">
+               Hookah bar
+            </text>
+         </clipPath>
+      </svg>
       <div class="menu-div">
          <ul class="menu-page">
             <li><a href="#menu-revie">Reviews</a></li>
             <li><a href="#menu-atmosphere">Atmosphere</a></li>
             <li><a href="#menu-about-us">About us</a></li>
-            <li><a href="#">Menu</a>
+            <li><a href="#menu">Menu</a>
                <ul>
                   <li><a href="#mune-hookah">Hookah</a></li>
                   <li><a href="#mune-food">Food</a></li>
@@ -33,18 +46,22 @@
 
    <main>
       <section>
+         <a name="menu"></a>
+         <div class="main__title">Menu</div>
+ 
          <div class="menu-border">
             <a name="mune-hookah"></a>
-            <div class="menu-title">Menu hookah</div>
-            <div class="menu hookah">
+            <div class="menu-title">Menu hookahs</div>
+
+            <div class="menu hookah accordion__items-text hide">
                <div>
                   <img src="https://sun9-47.userapi.com/c206816/v206816660/164ec9/xx3f8iAHcq4.jpg">
                </div>
                <div>
-                  <img src="https://sun9-47.userapi.com/c206816/v206816660/164ec9/xx3f8iAHcq4.jpg">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIh0D3xWF5tXkcnZTb2euGwz90jrkyoNIuVqfTMPAQ-TbCjUSJAtRWf62XiHJ8t8co7qM&usqp=CAU">
                </div>
                <div>
-                  <img src="https://sun9-47.userapi.com/c206816/v206816660/164ec9/xx3f8iAHcq4.jpg">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4XwRzi9YG4NdOOMhv_wZFKaag_Ybxz0OrXEtwVQqOu5-xeVk3ay9LVXtNWTmy2ETvzZk&usqp=CAU">
                </div>
                <div>
                   <img
@@ -58,8 +75,8 @@
          </div>
          <div class="menu-border">
             <a name="mune-food"></a>
-            <div class="menu-title">Menu food</div>
-            <div class="menu food">
+            <div class="menu-title">Menu foods</div>
+            <div class="menu food accordion__items-text hide">
                <div>
                   <img
                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_flCc_cBJXd2LtvhLhAdcLmDV3hGoUzvTZME3QQatk7lVxXtQSJSUrh3vSRITC0W-yiQ&usqp=CAU">
@@ -75,8 +92,8 @@
          </div>
          <div class="menu-border">
             <a name="mune-non-aclo"></a>
-            <div class="menu-title">Menu non aclohol drink</div>
-            <div class="menu non-alcoholic-drink">
+            <div class="menu-title">Menu non alcohol drinks</div>
+            <div class="menu non-alcoholic-drink accordion__items-text hide">
                <div>
                   <img
                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAVwigrTHsPL_yLbWyF1nRL3MJ4m0ncyKE7pgDlJWPkTioEx5qKseC1YsS_rqcjHtwr4&usqp=CAU">
@@ -92,8 +109,8 @@
          </div>
          <div class="menu-border">
             <a name="mune-low-alco"></a>
-            <div class="menu-title">Menu low aclohol drink</div>
-            <div class="menu low-alcohol-drink">
+            <div class="menu-title">Menu low alcohol drinks</div>
+            <div class="menu low-alcohol-drink accordion__items-text hide">
                <div>
                   <img
                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3LU6sGStLqHm0USkdQXBeD5mD7Ar1fWSMUJ9Uzw__HV5KQWsBo7Oy28ujEFvFQRlKec&usqp=CAU">
@@ -109,8 +126,8 @@
          </div>
          <div class="menu-border">
             <a name="mune-strong-alco"></a>
-            <div class="menu-title">Menu strong aclohol drink</div>
-            <div class="menu strong-alcoholic-drink">
+            <div class="menu-title">Menu strong alcohol drinks</div>
+            <div class="menu strong-alcoholic-drink accordion__items-text hide">
                <div>
                   <img src="https://vzboltay.com/uploads-retina/posts/2018-02/1517827073_jack-daniels.jpg">
                </div>
@@ -125,9 +142,10 @@
       </section>
 
       <section>
+         <a name="menu-about-us"></a>
+         <div class="main__title">About us</div>
+
          <div class="about-us">
-            <a name="menu-about-us"></a>
-            <div class="about-us-title">About us</div>
             <div class="about-text">
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Delectus, incidunt ratione magnam sunt tenetur rem!
@@ -140,9 +158,10 @@
       </section>
 
       <section>
+         <a name="menu-atmosphere"></a>
+         <div class="main__title">Atmosphere</div>
+
          <div class="atmosphere-border">
-            <a name="menu-atmosphere"></a>
-            <div class="atmosphere-title">Atmosphere</div>
             <div class="atmosphere">
                <div>
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8nVypLuCT5DH_DgneRE1Cp3V_ctlTNsvcIlYasgtOihk0fkHzgjRZ4yVq2R0R3XePp8A&usqp=CAU">
@@ -164,9 +183,10 @@
       </section>
 
       <section>
+         <a name="menu-revie"></a>
+         <div class="main__title">Reviews</div>
+
          <div class="revie-border">
-            <a name="menu-revie"></a>
-            <div class="revie-title">Revies</div>
             <div class="revie">
                <div>
                   <img src="icons/author1.jpg" alt="">
@@ -204,5 +224,15 @@
       </div>
       <div id="come-back"><a href="#">&#8688</a></div>
 </footer>
+
+<script type="text/javascript" src="javaScript.js">
+   // body.classList.toggle{"body-background"}; 
+   // hhh.onclick = function(){
+   //    // body.background.url = 'https://i.ytimg.com/vi/MGor8vyI0qY/maxresdefault.jpg';
+   //    // body.classList.toggle("body-background2");
+   //    body.style.backgroundImage = 'url(https://i.ytimg.com/vi/MGor8vyI0qY/maxresdefault.jpg)';
+   //    console.log("Hello");
+   // };
+</script>
 </body>
 </html>
